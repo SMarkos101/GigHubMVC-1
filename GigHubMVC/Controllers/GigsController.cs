@@ -16,7 +16,8 @@ namespace GigHubMVC.Controllers
             _context = new ApplicationDbContext();
         }
 
-        // GET: Gigs test
+        // GET: Gigs 
+        // Write this on cmd -> git fetch origin && git reset --hard origin/master && git clean -f -d
         [Authorize] 
         public ActionResult Create()
         {
